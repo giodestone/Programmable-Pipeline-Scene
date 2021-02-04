@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App1">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAAAAAIBAAAAAAIAAAAAAAAIAAAAAAQAQAAA=</HashCode>
+      <FileName>App1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="4.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAAIAAhAAAAAAAQAIAAAAAAAAAAIAUAAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectManager">
+    <Position X="7" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAAAAFBAAAAAAAAQAIQAAAAAgAQAAAAEBAwAA=</HashCode>
+      <FileName>GameObjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="7" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAgABAAAAAAAAABAABAEQIAAAEAAKCRBAAAAIUABQ=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform">
+    <Position X="4.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAAAAAAAAACAIAQCCAAgAAACAAAAAAAAQAA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameVariables">
+    <Position X="10.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQgQGEAAAgkACACAgCQCgAQRCCEHBQCQCCxAAoAgAQ=</HashCode>
+      <FileName>GameVariables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TessellatedPlaneObject" Collapsed="true">
+    <Position X="5" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="GameObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="10.517" />
+        <Point X="8.125" Y="10.881" />
+        <Point X="4.603" Y="10.881" />
+        <Point X="4.603" Y="12.562" />
+        <Point X="5" Y="12.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAIAAAgAAAAAAAMAgEgBAoAAAAAAIAAAAA=</HashCode>
+      <FileName>TessellatedPlaneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomPostProcessObject" Collapsed="true">
+    <Position X="5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBCAABUAkEgAiAAAAEAAAQIAAAABAIAAAAgAAAAABA=</HashCode>
+      <FileName>BloomPostProcessObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightObject" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="GameObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="10.517" />
+        <Point X="8.125" Y="10.875" />
+        <Point X="3.535" Y="10.875" />
+        <Point X="3.535" Y="10.353" />
+        <Point X="3.562" Y="10.353" />
+        <Point X="3.562" Y="10.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAFACAAAAAABAAAAAAAQAAIEABJAAQQAQAoEAAA=</HashCode>
+      <FileName>LightObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelObject" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="10.517" />
+        <Point X="8.125" Y="10.875" />
+        <Point X="5.75" Y="10.875" />
+        <Point X="5.75" Y="10.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACAgkABCBAAAAAAAAABARAAIAAAAAAJAAAAEAACMAAA=</HashCode>
+      <FileName>ModelObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowObject" Collapsed="true">
+    <Position X="2.75" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="GameObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="10.517" />
+        <Point X="8.125" Y="10.875" />
+        <Point X="4.625" Y="10.875" />
+        <Point X="4.625" Y="12.625" />
+        <Point X="4.25" Y="12.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAARAAAAAAAAAAAAAAQAAAggIACAIAAAAACAAIAAA=</HashCode>
+      <FileName>ShadowObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplePlaneObject" Collapsed="true">
+    <Position X="2.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAFAIAIAABAAAABAAAAIAAAAAAIAAAAEAACEAAA=</HashCode>
+      <FileName>SimplePlaneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleSphereObject" Collapsed="true">
+    <Position X="7.25" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="10.517" />
+        <Point X="8.125" Y="10.875" />
+        <Point X="7.25" Y="10.875" />
+        <Point X="7.25" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAgARAAAAAAAAAAAAAIAAIgAAAAAIAAAAAAAAUAAA=</HashCode>
+      <FileName>SimpleSphereObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleShader" Collapsed="true">
+    <Position X="10.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAACAAAAABAAAAAAAAAAAAAAAgGAAAAAAA=</HashCode>
+      <FileName>SimpleShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomGetBrightestShader" Collapsed="true">
+    <Position X="9.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCCACAAAAACAAAAABAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BloomGetBrightestShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomHorizontalBlurShader" Collapsed="true">
+    <Position X="11.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAACAAAAABAAAAAAACCAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BloomHorizontalBlurShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomMergeToSceneShader" Collapsed="true">
+    <Position X="9.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCCAAAIAAACAAAAABAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BloomMergeToSceneShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomVerticalBlurShader" Collapsed="true">
+    <Position X="11.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAEAACAAAAABAAAAAABAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BloomVerticalBlurShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaneTessellationShader" Collapsed="true">
+    <Position X="11.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAABACAAAAAQCIgAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneTessellationShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowDepthShader" Collapsed="true">
+    <Position X="9.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ShadowDepthShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowShader" Collapsed="true">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACCAQAAAgAACAAAAABAAAAAAAACAAAAAAAAEAACAQA=</HashCode>
+      <FileName>ShadowShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowTessellationDepthShader" Collapsed="true">
+    <Position X="9.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBgAAAAAAACAAAAAQCAAAAAAAAAIAAAAAAAgAAAAA=</HashCode>
+      <FileName>ShadowTessellationDepthShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowTessellationShader" Collapsed="true">
+    <Position X="11.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAgAQAAgAACEAAAARCAAAAAAACAIAAAAAAEAAAEAA=</HashCode>
+      <FileName>ShadowTessellationShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
